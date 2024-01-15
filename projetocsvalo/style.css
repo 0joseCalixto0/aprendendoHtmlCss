@@ -6,11 +6,12 @@
 }
 
 body {
+    height: 10vh;
+    box-sizing: border-box ;
     background-color:rgb(32, 32, 32);
     background-image: url(fundo.jpg) ;
     color: aliceblue;
-    height: 10vh;
-    box-sizing: border-box ;
+    
 }
 
 
@@ -23,36 +24,6 @@ body {
     color: rgb(10,169, 231);
 }
 
-.csgo {
-    color: rgb(255, 153, 0);
-    font-size:300%;
-    padding: 30px;
-     width: 160px;
-     position: absolute; 
-	left: 27%;  
-    right: 2px;
-    top: 70%;
-    border: 40 red;
-    border-radius:300px;
-    
-}
-
-.valorant {
-    color: rgb(187, 2, 2);
-    font-size:300%;
-    padding: 30px;
-     width: 160px;
-     position: absolute; 
-	left: 15%;  
-    right: 5px;
-    top: 70%;
-    border: 40 red;
-    border-radius: 300px;
-   
-    
-    
-}
-
 .apre {
     margin:10% 15%;
     display: flex;
@@ -63,6 +34,9 @@ body {
     
 }
 
+.apre_cont {
+  width: 615px;
+}
 
 .apre__cont__tit {
     font-size: 46px; 
@@ -73,11 +47,18 @@ body {
     font-size: 30px;
 }
 
-.links {
+.link {
   display: flex; 
   justify-content: space-between;
-  height: 20px;
-}
+ 
+} 
+
+.links {
+   width: 200px;
+   border-radius: 50px;
+
+} 
+
 
 .csva {
     height: 500px;
@@ -86,3 +67,4 @@ body {
     border-radius: 50px;
     
 }
+
